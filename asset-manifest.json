@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/DosImpact/reactblogapi/static/css/main.131eba75.chunk.css",
-    "main.js": "/DosImpact/reactblogapi/static/js/main.7d11af0c.chunk.js",
-    "main.js.map": "/DosImpact/reactblogapi/static/js/main.7d11af0c.chunk.js.map",
-    "runtime-main.js": "/DosImpact/reactblogapi/static/js/runtime-main.31bc5e79.js",
-    "runtime-main.js.map": "/DosImpact/reactblogapi/static/js/runtime-main.31bc5e79.js.map",
-    "static/js/2.d8c6e849.chunk.js": "/DosImpact/reactblogapi/static/js/2.d8c6e849.chunk.js",
-    "static/js/2.d8c6e849.chunk.js.map": "/DosImpact/reactblogapi/static/js/2.d8c6e849.chunk.js.map",
-    "index.html": "/DosImpact/reactblogapi/index.html",
-    "precache-manifest.4e81eeea011974367d0d1b1bb9911a64.js": "/DosImpact/reactblogapi/precache-manifest.4e81eeea011974367d0d1b1bb9911a64.js",
-    "service-worker.js": "/DosImpact/reactblogapi/service-worker.js",
-    "static/css/main.131eba75.chunk.css.map": "/DosImpact/reactblogapi/static/css/main.131eba75.chunk.css.map",
-    "static/js/2.d8c6e849.chunk.js.LICENSE": "/DosImpact/reactblogapi/static/js/2.d8c6e849.chunk.js.LICENSE"
+    "main.css": "/reactblogapi/static/css/main.131eba75.chunk.css",
+    "main.js": "/reactblogapi/static/js/main.7d11af0c.chunk.js",
+    "main.js.map": "/reactblogapi/static/js/main.7d11af0c.chunk.js.map",
+    "runtime-main.js": "/reactblogapi/static/js/runtime-main.3bbbfe25.js",
+    "runtime-main.js.map": "/reactblogapi/static/js/runtime-main.3bbbfe25.js.map",
+    "static/js/2.d8c6e849.chunk.js": "/reactblogapi/static/js/2.d8c6e849.chunk.js",
+    "static/js/2.d8c6e849.chunk.js.map": "/reactblogapi/static/js/2.d8c6e849.chunk.js.map",
+    "index.html": "/reactblogapi/index.html",
+    "precache-manifest.efb578847a243eb257cecf4ab6f2c86c.js": "/reactblogapi/precache-manifest.efb578847a243eb257cecf4ab6f2c86c.js",
+    "service-worker.js": "/reactblogapi/service-worker.js",
+    "static/css/main.131eba75.chunk.css.map": "/reactblogapi/static/css/main.131eba75.chunk.css.map",
+    "static/js/2.d8c6e849.chunk.js.LICENSE": "/reactblogapi/static/js/2.d8c6e849.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.31bc5e79.js",
+    "static/js/runtime-main.3bbbfe25.js",
     "static/js/2.d8c6e849.chunk.js",
     "static/css/main.131eba75.chunk.css",
     "static/js/main.7d11af0c.chunk.js"
