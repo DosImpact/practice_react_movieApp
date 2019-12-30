@@ -54,7 +54,7 @@ li {
 .movie .movie__detail {
   z-index: 2;
   position: absolute;
-  left: 600px;
+  left: 40%;
 }
 .movie .movie__detail div {
   margin: 10px 0px;
