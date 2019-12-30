@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactblogapi/static/css/main.e9e17c8e.chunk.css",
+    "main.css": "/reactblogapi/static/css/main.0346efc9.chunk.css",
     "main.js": "/reactblogapi/static/js/main.081cfda7.chunk.js",
     "main.js.map": "/reactblogapi/static/js/main.081cfda7.chunk.js.map",
     "runtime-main.js": "/reactblogapi/static/js/runtime-main.3bbbfe25.js",
@@ -8,15 +8,15 @@
     "static/js/2.d8c6e849.chunk.js": "/reactblogapi/static/js/2.d8c6e849.chunk.js",
     "static/js/2.d8c6e849.chunk.js.map": "/reactblogapi/static/js/2.d8c6e849.chunk.js.map",
     "index.html": "/reactblogapi/index.html",
-    "precache-manifest.e69a1de2859b6d13853a3880c3254c6d.js": "/reactblogapi/precache-manifest.e69a1de2859b6d13853a3880c3254c6d.js",
+    "precache-manifest.428b08303beeff56703f89a3c18a0a65.js": "/reactblogapi/precache-manifest.428b08303beeff56703f89a3c18a0a65.js",
     "service-worker.js": "/reactblogapi/service-worker.js",
-    "static/css/main.e9e17c8e.chunk.css.map": "/reactblogapi/static/css/main.e9e17c8e.chunk.css.map",
+    "static/css/main.0346efc9.chunk.css.map": "/reactblogapi/static/css/main.0346efc9.chunk.css.map",
     "static/js/2.d8c6e849.chunk.js.LICENSE": "/reactblogapi/static/js/2.d8c6e849.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.3bbbfe25.js",
     "static/js/2.d8c6e849.chunk.js",
-    "static/css/main.e9e17c8e.chunk.css",
+    "static/css/main.0346efc9.chunk.css",
     "static/js/main.081cfda7.chunk.js"
   ]
 }
