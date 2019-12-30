@@ -1,47 +1,47 @@
 import React from "react";
-import axios from "axios";
-import Movie from "./Movie.js";
-import "./App.css";
+import Axios from "axios";
+import Movie from "./Movie";
 
 class App extends React.Component {
-  state = { isLoading: true, movies: [] };
-
+  state = {
+    isLoading: true,
+    movies: []
+  };
   getMovies = async () => {
     const {
       data: {
         data: { movies }
       }
-    } = await axios.get("https://yts-proxy.now.sh/list_movies.json");
-    this.setState(current => ({ movies, isLoading: false }));
+    } = await Axios.get(
+      "https://yts-proxy.now.sh/list_movies.json?sort_by=rating"
+    );
+    console.log(movies);
+    this.setState(cs => ({ isLoading: false, movies }));
   };
   componentDidMount() {
     this.getMovies();
   }
   render() {
-    const isLoading = this.state.isLoading;
-    const movies = this.state.movies;
-    return (
-      <section className="container">
-        {isLoading ? (
-          <div className="loader">
-            <div className="loader__text">Loading...</div>
-          </div>
-        ) : (
-          <div className="movies">
-            {movies.map(movie => (
-              <Movie
-                key={movie.id}
-                id={movie.id}
-                year={movie.year}
-                title={movie.title}
-                summary={movie.summary}
-                poster={movie.medium_cover_image}
-                genres={movie.genres}
-              />
-            ))}
-          </div>
-        )}
-      </section>
+    return this.state.isLoading ? (
+      "Loading..."
+    ) : (
+      <div className="screen">
+        {this.state.movies.map(e => {
+          return (
+            <Movie
+              id={e.id}
+              key={e.id}
+              url={e.url}
+              title={e.title}
+              year={e.year}
+              rating={e.rating}
+              image={e.medium_cover_image}
+              summary={e.summary}
+              genres={e.genres}
+            ></Movie>
+          );
+        })}
+      </div>
     );
   }
 }

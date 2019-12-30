@@ -1,32 +1,37 @@
 import React from "react";
-import PropTypes from "prop-types";
 import "./Movie.css";
+import PropTypes from "prop-types";
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ id, url, title, year, rating, image, summary, genres }) {
   return (
     <div className="movie">
-      <img className="movie_img" src={poster} alt={title} title={title} />
-      <div className="movie_data">
-        <div className="movie_tile">{title}</div>
-        <div className="movie_year">{year}</div>
-        <div className="movie_summary">{summary.slice(0, 200)}...</div>
-        <ul className="genres">
-          {genres.map((genre, index) => (
-            <li key={index} className="genres__genre">
-              {genre}
-            </li>
+      <img className="movie__image" src={image} title={title} alt={title}></img>
+      <div className="movie__detail">
+        <div className="movie__title">{title}</div>
+        <a className="movie__url" href={url}>
+          {url}
+        </a>
+        <div className="movie__year">{year}</div>
+        <div className="movie__rating">{rating}</div>
+        <ul className="movie__genres">
+          {genres.map((e, index) => (
+            <li key={index}> {e}</li>
           ))}
         </ul>
+        <div className="movie__summary">{summary.slice(0, 1220)}</div>
       </div>
     </div>
   );
 }
-
 Movie.propTypes = {
-  id: PropTypes.number.isRequired,
-  year: PropTypes.number.isRequired,
+  id: PropTypes.number,
+  url: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
+  year: PropTypes.number.isRequired,
+  rating: PropTypes.number.isRequired,
+  image: PropTypes.string.isRequired,
   summary: PropTypes.string.isRequired,
-  poster: PropTypes.string.isRequired
+  genres: PropTypes.arrayOf(PropTypes.string).isRequired
 };
+
 export default Movie;
